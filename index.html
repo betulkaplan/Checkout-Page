@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fc81378408.js" crossorigin="anonymous"></script>
+    <title>WSCHECKOUT</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <div class="container">
+        <div class="body-left">
+            <form action="">
+                <div class="contact">
+                    <h2>Contact Information</h2>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Phone</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-phone-alt"></i>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="shipping">
+                    <div class="input-box">
+                        <label for="fullname">Full Name</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-user"></i>
+                            <input type="text" name="fullname" id="fullname">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="address">Address</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-home"></i>
+                            <input type="text" name="address" id="address">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="city">City</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-city"></i>
+                            <input type="text" name="city" id="city">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="country">Country</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-globe-europe"></i>
+                            <select name="" id="country">
+                                <option value="tr">Turkey</option>
+                                <option value="usa">USA</option>
+                                <option value="gm">Germany</option>
+                                <option value="uk">UK</option>
+                                <option value="cnd">Canada</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="postcode">Post Code</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-mail-bulk"></i>
+                            <input type="text" name="postcode" id="postcode">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <input type="checkbox" name="next-time" id="next-time">
+                        <label for="next-time">See this information next time</label>
+                    </div>
+                    <input type="submit" value="Continue">
+                </div>
+            </form>
+        </div>
+        <div class="body-right">
+            <div class="body-right-top">
+                <div class="shopping-item">
+                    <img src="./img/photo1.png" alt="">
+                    <div class="product-info">
+                        <p>Vintage Backpack</p>
+                        <p>$54.99 <span class="old-price">$95.99</span></p>
+                        <div class="product-quantity">
+                            <button><i class="fas fa-minus"></i></button>
+                            <p>1</p>
+                            <button><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="shopping-item">
+                    <img src="./img/photo2.png" alt="">
+                    <div class="product-info">
+                        <p>Levi Shoes</p>
+                        <p>$74.99 <span class="old-price">$124.99</span></p>
+                        <div class="product-quantity">
+                            <button><i class="fas fa-minus"></i></button>
+                            <p>1</p>
+                            <button><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="body-right-bottom">
+                <hr>
+                <div>
+                    <span>Shipping</span>
+                    <span>$19</span>
+                </div>
+                <hr>
+                <div>
+                    <span>Total</span>
+                    <span>$148.98</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
